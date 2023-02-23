@@ -1,4 +1,9 @@
+import About from "components/features/about";
 import Header from "components/features/header";
+import MainSection from "components/features/main-section";
+import Qualification from "components/features/qualification";
+import Services from "components/features/services";
+import Skills from "components/features/skills";
 import Head from "next/head";
 
 export default function Home() {
@@ -14,6 +19,11 @@ export default function Home() {
         <link rel="icon" href="/logo.ico" />
       </Head>
       <Header />
+      <MainSection />
+      <About />
+      <Skills />
+      <Qualification />
+      <Services />
     </>
   );
 }
