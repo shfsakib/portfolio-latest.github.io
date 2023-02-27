@@ -8,8 +8,12 @@ const Qualification = () => {
   return (
     <Fragment>
       <section className="qualification section">
-        <h2 className="section__title">Qualification</h2>
-        <span className="section__subtitle">My journey</span>
+        <h2 className="section__title" data-aos="fade-down">
+          Qualification
+        </h2>
+        <span className="section__subtitle" data-aos="fade-up">
+          My journey
+        </span>
         <div className="qualification__container container">
           <div className="qualification__tab">
             <div
@@ -45,7 +49,7 @@ const Qualification = () => {
             >
               {/*  */}
               <div className="qualification__data">
-                <div className="">
+                <div className="" data-aos="fade-right">
                   <h3 className="qualification__title">BSc in CSE</h3>
                   <span className="qualification__subtitle">
                     Port City International University
@@ -70,7 +74,7 @@ const Qualification = () => {
                   <span className="qualification__line"></span>
                 </div>
 
-                <div className="">
+                <div className="" data-aos="fade-left">
                   <h3 className="qualification__title">Web Design</h3>
                   <span className="qualification__subtitle">BITS IT</span>
                   <span className="qualification__calendar">
@@ -82,7 +86,7 @@ const Qualification = () => {
               {/*  */}
               {/*  */}
               <div className="qualification__data">
-                <div className="">
+                <div className="" data-aos="fade-right">
                   <h3 className="qualification__title">Web Development</h3>
                   <span className="qualification__subtitle">
                     Bangladesh Association of Software and Information Services
@@ -109,7 +113,7 @@ const Qualification = () => {
             >
               {/*  */}
               <div className="qualification__data">
-                <div className="">
+                <div className="" data-aos="fade-right">
                   <h3 className="qualification__title">Software Engineer</h3>
                   <span className="qualification__subtitle">
                     Alchemy Software Limited

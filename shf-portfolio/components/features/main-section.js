@@ -1,5 +1,5 @@
 import Image from "next/image";
-import React, { Fragment } from "react";
+import React, { Fragment, useEffect } from "react";
 import { AiOutlineSend } from "react-icons/ai";
 import { BiMessageDetail } from "react-icons/bi";
 import {
@@ -17,24 +17,44 @@ const MainSection = () => {
       <section className="home section" id="home">
         <div className="home__container container grid">
           <div className="home__content grid">
-            <div className="home__social">
-              <a href="" className="home__social-icon">
+            <div className="home__social" data-aos="fade-up">
+              <a
+                href="https://www.linkedin.com/in/shfsakib/"
+                target={"_blank"}
+                className="home__social-icon"
+              >
                 <BsLinkedin />
               </a>
-              <a href="" className="home__social-icon">
+              <a
+                href="https://github.com/shfsakib/"
+                target={"_blank"}
+                className="home__social-icon"
+              >
                 <BsGithub />
               </a>
-              <a href="" className="home__social-icon">
+              <a
+                href="https://www.fiverr.com/shfsakib?up_rollout=true"
+                target={"_blank"}
+                className="home__social-icon"
+              >
                 <span>fi</span>
               </a>
-              <a href="" className="home__social-icon">
+              <a
+                href="https://wa.me/8801685685506"
+                target={"_blank"}
+                className="home__social-icon"
+              >
                 <BsWhatsapp />
               </a>
-              <a href="" className="home__social-icon">
+              <a
+                href="https://www.facebook.com/shfsakib"
+                target={"_blank"}
+                className="home__social-icon"
+              >
                 <BsFacebook />
               </a>
             </div>
-            <div className="home__img">
+            <div className="home__img" data-aos="zoom-in">
               <svg className="home__blob" viewBox="0 0 200 187">
                 <mask id="mask0" mask-type="alpha">
                   <path
@@ -61,14 +81,22 @@ const MainSection = () => {
               </svg>
             </div>
             <div className="home__data">
-              <div className="home__title">{"Hi, I'm Sakib"}</div>
-              <div className="home__subtitle">{"Full Stack Developer"}</div>
-              <p className="home__description">
+              <div className="home__title" data-aos="fade-down">
+                {"Hi, I'm Sakib"}
+              </div>
+              <div className="home__subtitle" data-aos="fade-up">
+                {"Full Stack Developer"}
+              </div>
+              <p className="home__description" data-aos="fade-up">
                 {
                   "High level experience in web desing and development, ensure quality of work"
                 }
               </p>
-              <a href="#contact" className="button button--flex">
+              <a
+                href="#contact"
+                className="button button--flex"
+                data-aos="fade-right"
+              >
                 Contact me <AiOutlineSend className="button__icon" size={22} />
               </a>
             </div>

@@ -1,4 +1,6 @@
 import About from "components/features/about";
+import Contact from "components/features/contact";
+import Footer from "components/features/footer";
 import Header from "components/features/header";
 import MainSection from "components/features/main-section";
 import Portfolio from "components/features/portfolio";
@@ -7,8 +9,29 @@ import Services from "components/features/services";
 import Skills from "components/features/skills";
 import Testimonial from "components/features/testimonial";
 import Head from "next/head";
+import { useEffect, useState } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { BsArrowUp } from "react-icons/bs";
+import Link from "next/link";
 
 export default function Home() {
+  const [scrollHeight, setScrollHeight] = useState(0);
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      setScrollHeight(window.scrollY);
+    });
+    return () => {};
+  }, []);
+
+  useEffect(() => {
+    Aos.init({
+      offset: 20,
+      duration: 1200,
+      once: true,
+      delay: 100,
+    });
+  }, []);
   return (
     <>
       <Head>
@@ -28,6 +51,14 @@ export default function Home() {
       <Services />
       <Portfolio />
       <Testimonial />
+      <Contact />
+      <Footer />
+      <Link
+        href="/"
+        className={`scrollup${scrollHeight > 560 ? " show-scroll" : ""}`}
+      >
+        <BsArrowUp className="scrollup__icon" />
+      </Link>
     </>
   );
 }

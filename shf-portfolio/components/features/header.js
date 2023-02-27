@@ -1,16 +1,54 @@
 import Link from "next/link";
-import React, { Fragment, useState } from "react";
+import React, { Fragment, useEffect, useState } from "react";
 import { BiHomeAlt, BiMessageDetail } from "react-icons/bi";
-import { BsBriefcase, BsImage } from "react-icons/bs";
+import { BsBriefcase, BsImage, BsMoon, BsSun } from "react-icons/bs";
 import { AiOutlineFileText, AiOutlineUser } from "react-icons/ai";
 import { MdOutlineClose } from "react-icons/md";
 import { RxDashboard } from "react-icons/rx";
+import { useRouter } from "next/router";
 
 const Header = () => {
+  const router = useRouter();
+  const [themeDark, setThemeDark] = useState(true);
+  const [scrollHeight, setScrollHeight] = useState(0);
   const [showMenu, setShowMenu] = useState(false);
+
+  useEffect(() => {
+    themeDark
+      ? document.body.classList.add("dark-theme")
+      : document.body.classList.remove("dark-theme");
+
+    return () => {};
+  }, [themeDark]);
+  useEffect(() => {
+    if (localStorage.getItem("theme")) {
+      if (localStorage.getItem("theme") === "true") {
+        document.body.classList.add("dark-theme");
+        setThemeDark(true);
+      } else {
+        document.body.classList.remove("dark-theme");
+        setThemeDark(false);
+      }
+      // setThemeDark(Boolean(localStorage.getItem("theme")));
+    } else {
+      setThemeDark(true);
+    }
+    return () => {};
+  }, []);
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      setScrollHeight(window.scrollY);
+    });
+    return () => {};
+  }, []);
+
   return (
     <Fragment>
-      <header className="header" id="header">
+      <header
+        className={`header${scrollHeight > 80 ? " scroll-header" : ""}`}
+        id="header"
+      >
         <nav className="nav container">
           <Link className="nav__logo" href={"/"}>
             <img src="/logo.svg" alt="logo" className="header-logo" />
@@ -22,7 +60,9 @@ const Header = () => {
             <ul className="nav__list grid">
               <li className="nav__item">
                 <Link
-                  className="nav__link"
+                  className={`nav__link${
+                    router.asPath === "/" ? " active-link" : ""
+                  }`}
                   href={"/"}
                   onClick={() => {
                     setShowMenu(false);
@@ -34,7 +74,9 @@ const Header = () => {
               </li>
               <li className="nav__item">
                 <Link
-                  className="nav__link"
+                  className={`nav__link${
+                    router.asPath === "/#about" ? " active-link" : ""
+                  }`}
                   href={"#about"}
                   onClick={() => {
                     setShowMenu(false);
@@ -46,7 +88,9 @@ const Header = () => {
               </li>
               <li className="nav__item">
                 <Link
-                  className="nav__link"
+                  className={`nav__link${
+                    router.asPath === "/#skills" ? " active-link" : ""
+                  }`}
                   href={"#skills"}
                   onClick={() => {
                     setShowMenu(false);
@@ -58,7 +102,9 @@ const Header = () => {
               </li>
               <li className="nav__item">
                 <Link
-                  className="nav__link"
+                  className={`nav__link${
+                    router.asPath === "/#services" ? " active-link" : ""
+                  }`}
                   href={"#services"}
                   onClick={() => {
                     setShowMenu(false);
@@ -70,7 +116,9 @@ const Header = () => {
               </li>
               <li className="nav__item">
                 <Link
-                  className="nav__link"
+                  className={`nav__link${
+                    router.asPath === "/#portfolio" ? " active-link" : ""
+                  }`}
                   href={"#portfolio"}
                   onClick={() => {
                     setShowMenu(false);
@@ -82,7 +130,9 @@ const Header = () => {
               </li>
               <li className="nav__item">
                 <Link
-                  className="nav__link"
+                  className={`nav__link${
+                    router.asPath === "/#contact" ? " active-link" : ""
+                  }`}
                   href={"#contact"}
                   onClick={() => {
                     setShowMenu(false);
@@ -102,7 +152,24 @@ const Header = () => {
               <MdOutlineClose />
             </span>
           </div>
-          <div className="nav__btns">
+          <div className="nav__btns tw-flex tw-align-center">
+            {themeDark ? (
+              <BsMoon
+                className={"change-theme"}
+                onClick={() => {
+                  localStorage.setItem("theme", false);
+                  setThemeDark(false);
+                }}
+              />
+            ) : (
+              <BsSun
+                className={"change-theme"}
+                onClick={() => {
+                  localStorage.setItem("theme", true);
+                  setThemeDark(true);
+                }}
+              />
+            )}
             <div
               className="nav__toggle"
               onClick={() => {

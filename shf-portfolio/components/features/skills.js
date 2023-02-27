@@ -13,8 +13,12 @@ const Skills = () => {
   return (
     <Fragment>
       <section className="skills section" id="skills">
-        <h2 className="section__title">Skills</h2>
-        <span className="section__subtitle">My Experience</span>
+        <h2 className="section__title" data-aos="fade-down">
+          Skills
+        </h2>
+        <span className="section__subtitle" data-aos="fade-up">
+          My Experience
+        </span>
         <div className="skills__container container grid">
           <div className="">
             {/* front */}
@@ -30,7 +34,7 @@ const Skills = () => {
                 }}
               >
                 <BiCodeCurly className="skills__icons" />
-                <div className="">
+                <div className="" data-aos="zoom-out">
                   <h1 className="skills__title">Frontend Developer</h1>
                   <span className="skills__subtitle">More than 3 years</span>
                 </div>
@@ -143,7 +147,7 @@ const Skills = () => {
                 }}
               >
                 <GoServer className="skills__icons" />
-                <div className="">
+                <div className="" data-aos="zoom-out">
                   <h1 className="skills__title">Backend Developer</h1>
                   <span className="skills__subtitle">More than 2 years</span>
                 </div>
@@ -202,7 +206,7 @@ const Skills = () => {
                 }}
               >
                 <AiOutlineCloud className="skills__icons" />
-                <div className="">
+                <div className="" data-aos="zoom-out">
                   <h1 className="skills__title">Cloud Compute</h1>
                   <span className="skills__subtitle">More than 2 years</span>
                 </div>

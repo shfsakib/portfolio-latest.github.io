@@ -14,8 +14,12 @@ const Services = () => {
   return (
     <Fragment>
       <section className="services__section section" id="services">
-        <h2 className="section__title">Services</h2>
-        <span className="section__subtitle">What I Offer</span>
+        <h2 className="section__title" data-aos="fade-down">
+          Services
+        </h2>
+        <span className="section__subtitle" data-aos="fade-up">
+          What I Offer
+        </span>
         <div className="services__container container grid">
           <div className="services__content">
             <div className="">
