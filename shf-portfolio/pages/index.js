@@ -1,9 +1,11 @@
 import About from "components/features/about";
 import Header from "components/features/header";
 import MainSection from "components/features/main-section";
+import Portfolio from "components/features/portfolio";
 import Qualification from "components/features/qualification";
 import Services from "components/features/services";
 import Skills from "components/features/skills";
+import Testimonial from "components/features/testimonial";
 import Head from "next/head";
 
 export default function Home() {
@@ -24,6 +26,8 @@ export default function Home() {
       <Skills />
       <Qualification />
       <Services />
+      <Portfolio />
+      <Testimonial />
     </>
   );
 }

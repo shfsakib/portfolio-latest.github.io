@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useState } from "react";
 import {
   AiOutlineArrowRight,
   AiOutlineCheckCircle,
@@ -10,6 +10,7 @@ import { GoServer } from "react-icons/go";
 import { MdOutlineClose } from "react-icons/md";
 
 const Services = () => {
+  const [activeKey, setActiveKey] = useState(0);
   return (
     <Fragment>
       <section className="services__section section" id="services">
@@ -24,16 +25,30 @@ const Services = () => {
                 Developer
               </h3>
             </div>
-            <span className="button button--flex button--link button--small services__button">
+            <span
+              className="button button--flex button--link button--small services__button"
+              onClick={() => {
+                setActiveKey(1);
+              }}
+            >
               View More
               <AiOutlineArrowRight className="button__icon" />
             </span>
-            <div className="services__modal">
+            <div
+              className={`services__modal${
+                activeKey === 1 ? " active-modal" : ""
+              }`}
+            >
               <div className="services__modal-content">
                 <h4 className="services__modal-title">
                   Frontend <br /> Developer
                 </h4>
-                <MdOutlineClose className="services__modal-close" />
+                <MdOutlineClose
+                  className="services__modal-close"
+                  onClick={() => {
+                    setActiveKey(0);
+                  }}
+                />
                 <ul className="services__modal-services grid">
                   <li className="services__modal-service">
                     <AiOutlineCheckCircle className="services__modal-icon" />
@@ -68,16 +83,30 @@ const Services = () => {
                 Development
               </h3>
             </div>
-            <span className="button button--flex button--link button--small services__button">
+            <span
+              className="button button--flex button--link button--small services__button"
+              onClick={() => {
+                setActiveKey(2);
+              }}
+            >
               View More
               <AiOutlineArrowRight className="button__icon" />
             </span>
-            <div className="services__modal">
+            <div
+              className={`services__modal${
+                activeKey === 2 ? " active-modal" : ""
+              }`}
+            >
               <div className="services__modal-content">
                 <h4 className="services__modal-title">
                   Web <br /> Developer
                 </h4>
-                <MdOutlineClose className="services__modal-close" />
+                <MdOutlineClose
+                  className="services__modal-close"
+                  onClick={() => {
+                    setActiveKey(0);
+                  }}
+                />
                 <ul className="services__modal-services grid">
                   <li className="services__modal-service">
                     <AiOutlineCheckCircle className="services__modal-icon" />
@@ -114,16 +143,30 @@ const Services = () => {
                 Developer
               </h3>
             </div>
-            <span className="button button--flex button--link button--small services__button">
+            <span
+              className="button button--flex button--link button--small services__button"
+              onClick={() => {
+                setActiveKey(3);
+              }}
+            >
               View More
               <AiOutlineArrowRight className="button__icon" />
             </span>
-            <div className="services__modal">
+            <div
+              className={`services__modal${
+                activeKey === 3 ? " active-modal" : ""
+              }`}
+            >
               <div className="services__modal-content">
                 <h4 className="services__modal-title">
                   Desktop App <br /> Developer
                 </h4>
-                <MdOutlineClose className="services__modal-close" />
+                <MdOutlineClose
+                  className="services__modal-close"
+                  onClick={() => {
+                    setActiveKey(0);
+                  }}
+                />
                 <ul className="services__modal-services grid">
                   <li className="services__modal-service">
                     <AiOutlineCheckCircle className="services__modal-icon" />
