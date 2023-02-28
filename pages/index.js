@@ -69,12 +69,12 @@ export default function Home() {
       >
         <BsArrowUp className="scrollup__icon" />
       </Link>
-      {/* <div className="messenger__button">
+      <div className="messenger__button">
         <MessengerCustomerChat
           pageId="100090659772493"
           appId="129178523189747"
         />
-      </div> */}
+      </div>
     </>
   );
 }
