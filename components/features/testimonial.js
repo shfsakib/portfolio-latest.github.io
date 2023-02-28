@@ -46,9 +46,7 @@ const Testimonial = () => {
                         className="testimonial__img"
                       />
                       <div className="">
-                        <h3 className="testimonial__name">
-                          Mr. Shueib Abdul Azize
-                        </h3>
+                        <h3 className="testimonial__name">Mr. Shueib Abdul</h3>
                         <span className="testimonial__client">
                           <img src="Mozambique.png" alt="flag" />
                           Mozambique
@@ -74,7 +72,7 @@ const Testimonial = () => {
               <SwiperSlide>
                 <div className="testimonial__content">
                   <div className="testimonial__data">
-                    <div className="testimonial__header">
+                    <div className="testimonial__header" data-aos="fade-right">
                       <img
                         src="avatar.png"
                         alt="Client"
@@ -88,7 +86,7 @@ const Testimonial = () => {
                         </span>
                       </div>
                     </div>
-                    <div className="tw-flex">
+                    <div className="tw-flex" data-aos="fade-left">
                       <AiOutlineStar className="testimonial__icon-start" />
                       <AiOutlineStar className="testimonial__icon-start" />
                       <AiOutlineStar className="testimonial__icon-start" />
@@ -96,7 +94,7 @@ const Testimonial = () => {
                       <AiOutlineStar className="testimonial__icon-start" />
                     </div>
                   </div>
-                  <p className="testimonial__description">
+                  <p className="testimonial__description" data-aos="fade-up">
                     {
                       "He was very professional. Communication was great and responses were quick. Lots of questions so that he knew exactly what I needed. Delivered before the deadline. Would highly recommend. Thanks!"
                     }
