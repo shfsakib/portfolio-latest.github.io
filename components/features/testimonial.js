@@ -41,7 +41,7 @@ const Testimonial = () => {
                   <div className="testimonial__data">
                     <div className="testimonial__header" data-aos="fade-right">
                       <img
-                        src="/shueib.png"
+                        src="shueib.png"
                         alt="Client"
                         className="testimonial__img"
                       />
@@ -50,7 +50,7 @@ const Testimonial = () => {
                           Mr. Shueib Abdul Azize
                         </h3>
                         <span className="testimonial__client">
-                          <img src="/Mozambique.png" alt="flag" />
+                          <img src="Mozambique.png" alt="flag" />
                           Mozambique
                         </span>
                       </div>
@@ -76,14 +76,14 @@ const Testimonial = () => {
                   <div className="testimonial__data">
                     <div className="testimonial__header">
                       <img
-                        src="/avatar.png"
+                        src="avatar.png"
                         alt="Client"
                         className="testimonial__img"
                       />
                       <div className="">
                         <h3 className="testimonial__name">Mr. Hasan</h3>
                         <span className="testimonial__client">
-                          <img src="/us.png" alt="flag" />
+                          <img src="us.png" alt="flag" />
                           United States
                         </span>
                       </div>
@@ -109,7 +109,7 @@ const Testimonial = () => {
                   <div className="testimonial__data">
                     <div className="testimonial__header">
                       <img
-                        src="/nanseto.png"
+                        src="nanseto.png"
                         alt="Client"
                         className="testimonial__img"
                       />
@@ -117,7 +117,7 @@ const Testimonial = () => {
                         <h3 className="testimonial__name">Ms. Nanseto</h3>
                         <span className="testimonial__client">
                           <span className="testimonial__client">
-                            <img src="/canada.png" alt="flag" />
+                            <img src="canada.png" alt="flag" />
                             Canada
                           </span>
                         </span>
@@ -144,14 +144,14 @@ const Testimonial = () => {
                   <div className="testimonial__data">
                     <div className="testimonial__header">
                       <img
-                        src="/hakimimas.png"
+                        src="hakimimas.png"
                         alt="Client"
                         className="testimonial__img"
                       />
                       <div className="">
                         <h3 className="testimonial__name">Mr. Hakimimas</h3>
                         <span className="testimonial__client">
-                          <img src="/Malaysia.png" alt="flag" />
+                          <img src="Malaysia.png" alt="flag" />
                           Malaysia
                         </span>
                       </div>
@@ -178,14 +178,14 @@ const Testimonial = () => {
                   <div className="testimonial__data">
                     <div className="testimonial__header">
                       <img
-                        src="/avatar.png"
+                        src="avatar.png"
                         alt="Client"
                         className="testimonial__img"
                       />
                       <div className="">
                         <h3 className="testimonial__name">Mr. Bilal Sohail</h3>
                         <span className="testimonial__client">
-                          <img src="/uk.png" alt="flag" />
+                          <img src="uk.png" alt="flag" />
                           United Kingdom
                         </span>
                       </div>
@@ -210,14 +210,14 @@ const Testimonial = () => {
                 <div className="testimonial__data">
                   <div className="testimonial__header">
                     <img
-                      src="/avatar.png"
+                      src="avatar.png"
                       alt="Client"
                       className="testimonial__img"
                     />
                     <div className="">
                       <h3 className="testimonial__name">Mr. CTZN</h3>
                       <span className="testimonial__client">
-                        <img src="/uk.png" alt="flag" />
+                        <img src="uk.png" alt="flag" />
                         United Kingdom
                       </span>
                     </div>
@@ -243,14 +243,14 @@ const Testimonial = () => {
                   <div className="testimonial__data">
                     <div className="testimonial__header">
                       <img
-                        src="/avatar.png"
+                        src="avatar.png"
                         alt="Client"
                         className="testimonial__img"
                       />
                       <div className="">
                         <h3 className="testimonial__name">Mr. MMC</h3>
                         <span className="testimonial__client">
-                          <img src="/oman.png" alt="flag" />
+                          <img src="oman.png" alt="flag" />
                           Oman
                         </span>
                       </div>
@@ -276,14 +276,14 @@ const Testimonial = () => {
                   <div className="testimonial__data">
                     <div className="testimonial__header">
                       <img
-                        src="/avatar.png"
+                        src="avatar.png"
                         alt="Client"
                         className="testimonial__img"
                       />
                       <div className="">
                         <h3 className="testimonial__name">Mr. Daud</h3>
                         <span className="testimonial__client">
-                          <img src="/uk.png" alt="flag" />
+                          <img src="uk.png" alt="flag" />
                           United Kingdom
                         </span>
                       </div>
@@ -309,14 +309,14 @@ const Testimonial = () => {
                   <div className="testimonial__data">
                     <div className="testimonial__header">
                       <img
-                        src="/avatar.png"
+                        src="avatar.png"
                         alt="Client"
                         className="testimonial__img"
                       />
                       <div className="">
                         <h3 className="testimonial__name">Mr. SC</h3>
                         <span className="testimonial__client">
-                          <img src="/us.png" alt="flag" />
+                          <img src="us.png" alt="flag" />
                           United States
                         </span>
                       </div>
@@ -342,14 +342,14 @@ const Testimonial = () => {
                   <div className="testimonial__data">
                     <div className="testimonial__header">
                       <img
-                        src="/avatar.png"
+                        src="avatar.png"
                         alt="Client"
                         className="testimonial__img"
                       />
                       <div className="">
                         <h3 className="testimonial__name">Mr. Senu Rabi</h3>
                         <span className="testimonial__client">
-                          <img src="/us.png" alt="flag" />
+                          <img src="us.png" alt="flag" />
                           United States
                         </span>
                       </div>
@@ -375,14 +375,14 @@ const Testimonial = () => {
                   <div className="testimonial__data">
                     <div className="testimonial__header">
                       <img
-                        src="/avatar.png"
+                        src="avatar.png"
                         alt="Client"
                         className="testimonial__img"
                       />
                       <div className="">
                         <h3 className="testimonial__name">Mr. Devid</h3>
                         <span className="testimonial__client">
-                          <img src="/uk.png" alt="flag" />
+                          <img src="uk.png" alt="flag" />
                           United Kingdom
                         </span>
                       </div>

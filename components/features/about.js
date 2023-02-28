@@ -12,7 +12,7 @@ const About = () => {
       </span>
       <div className="about__container container grid">
         <img
-          src="/about.png"
+          src="about.png"
           alt="about-img"
           data-aos="zoom-out"
           className="about__img"
@@ -51,7 +51,7 @@ const About = () => {
           </div>
           <div className="about__buttons">
             <a
-              href="/cv.docx"
+              href="cv.docx"
               download={true}
               data-aos="zoom-out"
               className={"button button--flex"}

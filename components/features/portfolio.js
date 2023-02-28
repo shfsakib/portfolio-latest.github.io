@@ -51,7 +51,7 @@ const Portfolio = () => {
               <SwiperSlide>
                 <div className="portfolio__content grid">
                   <img
-                    src="/chat.png"
+                    src="chat.png"
                     alt="chat system"
                     className="portfolio__img"
                   />
@@ -80,7 +80,7 @@ const Portfolio = () => {
               <SwiperSlide>
                 <div className="portfolio__content grid">
                   <img
-                    src="/hq.svg"
+                    src="hq.svg"
                     alt="nft market place"
                     className="portfolio__img"
                   />
@@ -109,7 +109,7 @@ const Portfolio = () => {
               <SwiperSlide>
                 <div className="portfolio__content grid">
                   <img
-                    src="/donation.png"
+                    src="donation.png"
                     alt="social funding"
                     className="portfolio__img"
                   />
@@ -138,7 +138,7 @@ const Portfolio = () => {
               <SwiperSlide>
                 <div className="portfolio__content grid">
                   <img
-                    src="/ecommerce.png"
+                    src="ecommerce.png"
                     alt="multi vendor ecommerce"
                     className="portfolio__img"
                   />
@@ -159,7 +159,7 @@ const Portfolio = () => {
               <SwiperSlide>
                 <div className="portfolio__content grid">
                   <img
-                    src="/medicine.png"
+                    src="medicine.png"
                     alt="Online medical support"
                     className="portfolio__img"
                   />
@@ -190,7 +190,7 @@ const Portfolio = () => {
                 {" "}
                 <div className="portfolio__content grid">
                   <img
-                    src="/thesis.png"
+                    src="thesis.png"
                     alt="University Final Defence"
                     className="portfolio__img"
                   />
@@ -220,7 +220,7 @@ const Portfolio = () => {
                 {" "}
                 <div className="portfolio__content grid">
                   <img
-                    src="/child.png"
+                    src="child.png"
                     alt="Child Learning App"
                     className="portfolio__img"
                   />
@@ -248,7 +248,7 @@ const Portfolio = () => {
                 {" "}
                 <div className="portfolio__content grid">
                   <img
-                    src="/empower.png"
+                    src="empower.png"
                     alt="Empower"
                     className="portfolio__img"
                   />

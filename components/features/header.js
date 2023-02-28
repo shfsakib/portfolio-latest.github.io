@@ -57,7 +57,7 @@ const Header = () => {
       >
         <nav className="nav container">
           <Link className="nav__logo" href={"/"}>
-            <img src="/logo.svg" alt="logo" className="header-logo" />
+            <img src="logo.svg" alt="logo" className="header-logo" />
           </Link>
           <div
             className={`nav__menu${showMenu ? " show-menu" : ""}`}
