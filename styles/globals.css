@@ -822,7 +822,7 @@ textarea.contact__input {
   font-weight: var(--font-medium);
 }
 .show-scroll {
-  bottom: 5rem;
+  bottom: 7rem;
 }
 /* theme */
 .change-theme {
