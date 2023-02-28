@@ -41,7 +41,7 @@ export default function Home() {
           name="description"
           content="I'm a designer & developer with a passion for web & windows application development. I enjoy develop web software that help people to fulfil their demand. Many clients have procured exceptional result while working with me. Delivering work within time and budget which meets client’s requirements is my moto."
         />
-        <link rel="apple-touch-icon" href="/mypic.png" />
+        <link rel="apple-touch-icon" href="mypic.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
         <meta property="og:url" content="https://shfsakib.com/" />
@@ -50,8 +50,8 @@ export default function Home() {
           property="og:description"
           content="I'm a designer & developer with a passion for web & windows application development. I enjoy develop web software that help people to fulfil their demand. Many clients have procured exceptional result while working with me. Delivering work within time and budget which meets client’s requirements is my moto."
         />
-        <meta property="og:image" content="/mypic.png" />
-        <link rel="icon" href="/logo.ico" />
+        <meta property="og:image" content="mypic.png" />
+        <link rel="icon" href="logo.ico" />
       </Head>
       <Header />
       <MainSection />
