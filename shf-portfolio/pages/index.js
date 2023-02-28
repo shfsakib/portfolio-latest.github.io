@@ -14,6 +14,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { BsArrowUp } from "react-icons/bs";
 import Link from "next/link";
+import MessengerCustomerChat from "react-messenger-customer-chat";
 
 export default function Home() {
   const [scrollHeight, setScrollHeight] = useState(0);
@@ -40,7 +41,16 @@ export default function Home() {
           name="description"
           content="I'm a designer & developer with a passion for web & windows application development. I enjoy develop web software that help people to fulfil their demand. Many clients have procured exceptional result while working with me. Delivering work within time and budget which meets client’s requirements is my moto."
         />
+        <link rel="apple-touch-icon" href="/mypic.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <meta property="og:url" content="https://shfsakib.com/" />
+        <meta property="og:title" content="Mohammad Sakib Hossain" />
+        <meta
+          property="og:description"
+          content="I'm a designer & developer with a passion for web & windows application development. I enjoy develop web software that help people to fulfil their demand. Many clients have procured exceptional result while working with me. Delivering work within time and budget which meets client’s requirements is my moto."
+        />
+        <meta property="og:image" content="/mypic.png" />
         <link rel="icon" href="/logo.ico" />
       </Head>
       <Header />
@@ -59,6 +69,12 @@ export default function Home() {
       >
         <BsArrowUp className="scrollup__icon" />
       </Link>
+      <div className="messenger__button">
+        <MessengerCustomerChat
+          pageId="100090659772493"
+          appId="129178523189747"
+        />
+      </div>
     </>
   );
 }

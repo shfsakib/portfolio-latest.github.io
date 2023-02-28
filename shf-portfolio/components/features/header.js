@@ -46,7 +46,13 @@ const Header = () => {
   return (
     <Fragment>
       <header
-        className={`header${scrollHeight > 80 ? " scroll-header" : ""}`}
+        className={`header${
+          scrollHeight > 80
+            ? themeDark
+              ? " scroll-header-dark"
+              : " scroll-header"
+            : ""
+        }`}
         id="header"
       >
         <nav className="nav container">

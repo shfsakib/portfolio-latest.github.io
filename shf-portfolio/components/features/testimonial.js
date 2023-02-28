@@ -25,7 +25,7 @@ const Testimonial = () => {
             }}
             loop={true}
             breakpoints={{
-              768: {
+              568: {
                 slidesPerView: 2,
               },
             }}

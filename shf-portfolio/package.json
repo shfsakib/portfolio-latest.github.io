@@ -1,5 +1,6 @@
 {
   "name": "shf-portfolio",
+  "homepage": "https://shfsakib.com",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -23,6 +24,7 @@
     "react-bootstrap": "^2.7.2",
     "react-dom": "18.2.0",
     "react-icons": "^4.7.1",
+    "react-messenger-customer-chat": "^0.8.0",
     "swiper": "^9.0.5",
     "tailwindcss": "^3.2.7"
   },
