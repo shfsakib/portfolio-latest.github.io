@@ -94,7 +94,7 @@ const MainSection = () => {
               </div>
               <p className="home__description" data-aos="fade-up">
                 {
-                  "High level experience in web desing and development, ensure quality of work"
+                  "High level experience in web design and development, ensure quality of work"
                 }
               </p>
               <a
