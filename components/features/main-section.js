@@ -21,6 +21,7 @@ const MainSection = () => {
               <a
                 href="https://www.linkedin.com/in/shfsakib/"
                 target={"_blank"}
+                rel="noreferrer"
                 className="home__social-icon"
               >
                 <BsLinkedin />
@@ -28,6 +29,7 @@ const MainSection = () => {
               <a
                 href="https://github.com/shfsakib/"
                 target={"_blank"}
+                rel="noreferrer"
                 className="home__social-icon"
               >
                 <BsGithub />
@@ -35,6 +37,7 @@ const MainSection = () => {
               <a
                 href="https://www.fiverr.com/shfsakib?up_rollout=true"
                 target={"_blank"}
+                rel="noreferrer"
                 className="home__social-icon"
               >
                 <span>fi</span>
@@ -42,6 +45,7 @@ const MainSection = () => {
               <a
                 href="https://wa.me/8801685685506"
                 target={"_blank"}
+                rel="noreferrer"
                 className="home__social-icon"
               >
                 <BsWhatsapp />
@@ -49,6 +53,7 @@ const MainSection = () => {
               <a
                 href="https://www.facebook.com/shfsakib"
                 target={"_blank"}
+                rel="noreferrer"
                 className="home__social-icon"
               >
                 <BsFacebook />

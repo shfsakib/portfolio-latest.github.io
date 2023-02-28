@@ -32,6 +32,7 @@ const Footer = () => {
               <a
                 href="https://www.facebook.com/shfsakib"
                 target={"_blank"}
+                rel="noreferrer"
                 className="footer__social"
               >
                 <BsFacebook />
@@ -39,6 +40,7 @@ const Footer = () => {
               <a
                 href="https://wa.me/8801685685506"
                 target={"_blank"}
+                rel="noreferrer"
                 className="footer__social"
               >
                 <BsWhatsapp />
@@ -46,6 +48,7 @@ const Footer = () => {
               <a
                 href="https://www.instagram.com/shfsakib/"
                 target={"_blank"}
+                rel="noreferrer"
                 className="footer__social"
               >
                 <BsInstagram />
@@ -53,6 +56,7 @@ const Footer = () => {
               <a
                 href="https://twitter.com/shf_sakib"
                 target={"_blank"}
+                rel="noreferrer"
                 className="footer__social"
               >
                 <BsTwitter />

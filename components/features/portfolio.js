@@ -66,6 +66,7 @@ const Portfolio = () => {
                     <a
                       href="http://44.199.235.160/#/login"
                       target={"_blank"}
+                      rel="noreferrer"
                       className="button button--flex button--small portfolio__button"
                       data-aos="fade-up"
                     >
@@ -96,6 +97,7 @@ const Portfolio = () => {
                       href="https://hqnfts.xyz/"
                       target={"_blank"}
                       data-aos="fade-up"
+                      rel="noreferrer"
                       className="button button--flex button--small portfolio__button"
                     >
                       Demo
@@ -123,6 +125,7 @@ const Portfolio = () => {
                     <a
                       href="http://44.201.93.103/#/login"
                       target={"_blank"}
+                      rel="noreferrer"
                       className="button button--flex button--small portfolio__button"
                     >
                       Demo
@@ -166,13 +169,14 @@ const Portfolio = () => {
                       Online Medi Support App
                     </h3>
                     <p className="portfolio__description">
-                      A platform where you can order medicine by compare it's
-                      price with all shops. Also can find ambulance, doctor
-                      details.
+                      {
+                        "A platform where you can order medicine by compare it's price with all shops. Also can find ambulance, doctor details."
+                      }
                     </p>
                     <a
                       href="https://github.com/shfsakib/OnlineMediShopApp"
                       target={"_blank"}
+                      rel="noreferrer"
                       className="button button--flex button--small portfolio__button"
                     >
                       Github
@@ -202,6 +206,7 @@ const Portfolio = () => {
                     <a
                       href="https://github.com/shfsakib/PCIUThesisManagementAndroidApp"
                       target={"_blank"}
+                      rel="noreferrer"
                       className="button button--flex button--small portfolio__button"
                     >
                       Github
@@ -229,6 +234,7 @@ const Portfolio = () => {
                     <a
                       href="https://github.com/shfsakib/ChildLearningApp"
                       target={"_blank"}
+                      rel="noreferrer"
                       className="button button--flex button--small portfolio__button"
                     >
                       Github
@@ -258,6 +264,7 @@ const Portfolio = () => {
                     <a
                       href="https://github.com/shfsakib/StudentMarket"
                       target={"_blank"}
+                      rel="noreferrer"
                       className="button button--flex button--small portfolio__button"
                     >
                       Github
