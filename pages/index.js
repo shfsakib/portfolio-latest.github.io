@@ -71,7 +71,7 @@ export default function Home() {
       </Link>
       <div className="messenger__button">
         <MessengerCustomerChat
-          pageId="100090659772493"
+          pageId="109876558707057"
           appId="129178523189747"
         />
       </div>
