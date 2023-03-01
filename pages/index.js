@@ -15,6 +15,7 @@ import "aos/dist/aos.css";
 import { BsArrowUp } from "react-icons/bs";
 import Link from "next/link";
 import MessengerCustomerChat from "react-messenger-customer-chat";
+import FiverrServices from "components/features/fiverr-services";
 
 export default function Home() {
   const [scrollHeight, setScrollHeight] = useState(0);
@@ -59,6 +60,7 @@ export default function Home() {
       <Skills />
       <Qualification />
       <Services />
+      <FiverrServices />
       <Portfolio />
       <Testimonial />
       <Contact />

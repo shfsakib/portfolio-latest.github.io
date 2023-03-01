@@ -5,8 +5,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
+import { Autoplay, Pagination, Navigation } from "swiper";
 
-import { Pagination } from "swiper";
 const Testimonial = () => {
   return (
     <Fragment>
@@ -23,13 +23,17 @@ const Testimonial = () => {
               clickable: true,
               dynamicBullets: true,
             }}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false,
+            }}
             loop={true}
             breakpoints={{
               568: {
                 slidesPerView: 2,
               },
             }}
-            modules={[Pagination]}
+            modules={[Pagination, Autoplay]}
             grabCursor={true}
             spaceBetween={48}
             className="testiSwipers"
