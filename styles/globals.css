@@ -822,7 +822,7 @@ textarea.contact__input {
   font-weight: var(--font-medium);
 }
 .show-scroll {
-  bottom: 7rem;
+  bottom: 8rem;
 }
 /* theme */
 .change-theme {
@@ -1094,4 +1094,8 @@ textarea.contact__input {
   .container {
     max-width: 1024px;
   }
+}
+[data-testid="bubble_iframe"] {
+  bottom: 3.5rem !important;
+  right: 0 !important;
 }
