@@ -1,27 +1,44 @@
-import React, { Fragment, useRef } from "react";
+import React, { Fragment, useRef, useState } from "react";
 import { BsEnvelope, BsTelephone } from "react-icons/bs";
 import { IoSendOutline } from "react-icons/io5";
 import emailjs from "emailjs-com";
+import { toast } from "react-hot-toast";
 
 const Contact = () => {
   const form = useRef();
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
   const sendEmail = (e) => {
     e.preventDefault();
-    emailjs
-      .sendForm(
-        "service_fa0iudj",
-        "template_pyxrvcj",
-        form.current,
-        "B2Df2EAtu9xohCD0i"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    if (document.forms["myForm"]["name"].value === "") {
+      toast.error("Name is required");
+    } else if (document.forms["myForm"]["email"].value === "") {
+      toast.error("Email is required");
+    } else if (document.forms["myForm"]["message"].value === "") {
+      toast.error("Message is required");
+    } else {
+      emailjs
+        .sendForm(
+          "service_fa0iudj",
+          "template_pyxrvcj",
+          form.current,
+          "B2Df2EAtu9xohCD0i"
+        )
+        .then(
+          (result) => {
+            toast.success("Message sent successfully");
+            setName("");
+            setEmail("");
+            setMessage("");
+            console.log(result.text);
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
+    }
     e.target.reset();
   };
   return (
@@ -62,7 +79,12 @@ const Contact = () => {
             </div>
           </div>
 
-          <form ref={form} onSubmit={sendEmail} className="contact__form grid">
+          <form
+            ref={form}
+            onSubmit={sendEmail}
+            name="myForm"
+            className="contact__form grid"
+          >
             <div className="contact__inputs grid">
               <div className="contact__content">
                 <label htmlFor="" className="contact__label">
@@ -74,6 +96,10 @@ const Contact = () => {
                   name="name"
                   className="contact__input"
                   placeholder="e.g John Doe"
+                  value={name}
+                  onChange={(e) => {
+                    setName(e.target.value);
+                  }}
                 />
               </div>
               <div className="contact__content">
@@ -86,6 +112,10 @@ const Contact = () => {
                   autoComplete="off"
                   className="contact__input"
                   placeholder="name@example.com"
+                  value={email}
+                  onChange={(e) => {
+                    setEmail(e.target.value);
+                  }}
                 />
               </div>
             </div>
@@ -110,6 +140,10 @@ const Contact = () => {
                 name="message"
                 placeholder="Write your message"
                 className="contact__input"
+                value={message}
+                onChange={(e) => {
+                  setMessage(e.target.value);
+                }}
               ></textarea>
             </div>
             <div className="">
