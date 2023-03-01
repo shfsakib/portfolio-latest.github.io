@@ -10,9 +10,9 @@ import { GoServer } from "react-icons/go";
 
 const Skills = () => {
   const [activeKey, setActiveKey] = useState(1);
-  const [backStat, setBackStat] = useState(true);
-  const [frontStat, setFrontStat] = useState(true);
-  const [cloudStat, setCloudStat] = useState(true);
+  const [backStat, setBackStat] = useState(false);
+  const [frontStat, setFrontStat] = useState(false);
+  const [cloudStat, setCloudStat] = useState(false);
   return (
     <Fragment>
       <section className="skills section" id="skills">
