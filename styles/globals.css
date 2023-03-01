@@ -1095,7 +1095,7 @@ textarea.contact__input {
     max-width: 1024px;
   }
 }
-[data-testid="bubble_iframe"] {
+.fb_dialog_content iframe {
   bottom: 3.5rem !important;
   right: 0 !important;
 }
