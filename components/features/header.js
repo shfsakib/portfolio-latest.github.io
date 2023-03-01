@@ -63,6 +63,14 @@ const Header = () => {
             className={`nav__menu${showMenu ? " show-menu" : ""}`}
             id="nav-menu"
           >
+            <span
+              className="nav__close"
+              onClick={() => {
+                setShowMenu(false);
+              }}
+            >
+              <MdOutlineClose />
+            </span>
             <ul className="nav__list grid">
               <li className="nav__item">
                 <Link
@@ -149,14 +157,6 @@ const Header = () => {
                 </Link>
               </li>
             </ul>
-            <span
-              className="nav__close"
-              onClick={() => {
-                setShowMenu(false);
-              }}
-            >
-              <MdOutlineClose />
-            </span>
           </div>
           <div className="nav__btns tw-flex tw-align-center">
             {themeDark ? (
