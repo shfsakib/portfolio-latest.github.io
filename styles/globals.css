@@ -105,6 +105,9 @@ img {
   max-width: 100%;
   height: auto;
 }
+.col-primary {
+  color: var(--first-color);
+}
 .section {
   padding: 2rem 0 4rem;
 }
@@ -405,7 +408,9 @@ img {
 }
 .skills__percentage {
   display: block;
+  width: 0;
   background-color: var(--first-color);
+  transition: width 1s ease-in-out;
 }
 .skills__html {
   width: 95%;

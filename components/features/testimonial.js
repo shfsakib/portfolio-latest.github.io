@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { AiOutlineStar } from "react-icons/ai";
+import { AiFillStar } from "react-icons/ai";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -54,11 +54,11 @@ const Testimonial = () => {
                       </div>
                     </div>
                     <div className="tw-flex" data-aos="fade-left">
-                      <AiOutlineStar className="testimonial__icon-start" />
-                      <AiOutlineStar className="testimonial__icon-start" />
-                      <AiOutlineStar className="testimonial__icon-start" />
-                      <AiOutlineStar className="testimonial__icon-start" />
-                      <AiOutlineStar className="testimonial__icon-start" />
+                      <AiFillStar className="testimonial__icon-star" />
+                      <AiFillStar className="testimonial__icon-star" />
+                      <AiFillStar className="testimonial__icon-star" />
+                      <AiFillStar className="testimonial__icon-star" />
+                      <AiFillStar className="testimonial__icon-star" />
                     </div>
                   </div>
                   <p className="testimonial__description" data-aos="fade-up">
@@ -87,11 +87,11 @@ const Testimonial = () => {
                       </div>
                     </div>
                     <div className="tw-flex" data-aos="fade-left">
-                      <AiOutlineStar className="testimonial__icon-start" />
-                      <AiOutlineStar className="testimonial__icon-start" />
-                      <AiOutlineStar className="testimonial__icon-start" />
-                      <AiOutlineStar className="testimonial__icon-start" />
-                      <AiOutlineStar className="testimonial__icon-start" />
+                      <AiFillStar className="testimonial__icon-star" />
+                      <AiFillStar className="testimonial__icon-star" />
+                      <AiFillStar className="testimonial__icon-star" />
+                      <AiFillStar className="testimonial__icon-star" />
+                      <AiFillStar className="testimonial__icon-star" />
                     </div>
                   </div>
                   <p className="testimonial__description" data-aos="fade-up">
@@ -122,11 +122,11 @@ const Testimonial = () => {
                       </div>
                     </div>
                     <div className="tw-flex">
-                      <AiOutlineStar className="testimonial__icon-start" />
-                      <AiOutlineStar className="testimonial__icon-start" />
-                      <AiOutlineStar className="testimonial__icon-start" />
-                      <AiOutlineStar className="testimonial__icon-start" />
-                      <AiOutlineStar className="testimonial__icon-start" />
+                      <AiFillStar className="testimonial__icon-star" />
+                      <AiFillStar className="testimonial__icon-star" />
+                      <AiFillStar className="testimonial__icon-star" />
+                      <AiFillStar className="testimonial__icon-star" />
+                      <AiFillStar className="testimonial__icon-star" />
                     </div>
                   </div>
                   <p className="testimonial__description">
@@ -155,11 +155,11 @@ const Testimonial = () => {
                       </div>
                     </div>
                     <div className="tw-flex">
-                      <AiOutlineStar className="testimonial__icon-start" />
-                      <AiOutlineStar className="testimonial__icon-start" />
-                      <AiOutlineStar className="testimonial__icon-start" />
-                      <AiOutlineStar className="testimonial__icon-start" />
-                      <AiOutlineStar className="testimonial__icon-start" />
+                      <AiFillStar className="testimonial__icon-star" />
+                      <AiFillStar className="testimonial__icon-star" />
+                      <AiFillStar className="testimonial__icon-star" />
+                      <AiFillStar className="testimonial__icon-star" />
+                      <AiFillStar className="testimonial__icon-star" />
                     </div>
                   </div>
                   <p className="testimonial__description">
@@ -189,11 +189,11 @@ const Testimonial = () => {
                       </div>
                     </div>
                     <div className="tw-flex">
-                      <AiOutlineStar className="testimonial__icon-start" />
-                      <AiOutlineStar className="testimonial__icon-start" />
-                      <AiOutlineStar className="testimonial__icon-start" />
-                      <AiOutlineStar className="testimonial__icon-start" />
-                      <AiOutlineStar className="testimonial__icon-start" />
+                      <AiFillStar className="testimonial__icon-star" />
+                      <AiFillStar className="testimonial__icon-star" />
+                      <AiFillStar className="testimonial__icon-star" />
+                      <AiFillStar className="testimonial__icon-star" />
+                      <AiFillStar className="testimonial__icon-star" />
                     </div>
                   </div>
                   <p className="testimonial__description">
@@ -221,11 +221,11 @@ const Testimonial = () => {
                     </div>
                   </div>
                   <div className="tw-flex">
-                    <AiOutlineStar className="testimonial__icon-start" />
-                    <AiOutlineStar className="testimonial__icon-start" />
-                    <AiOutlineStar className="testimonial__icon-start" />
-                    <AiOutlineStar className="testimonial__icon-start" />
-                    <AiOutlineStar className="testimonial__icon-start" />
+                    <AiFillStar className="testimonial__icon-star" />
+                    <AiFillStar className="testimonial__icon-star" />
+                    <AiFillStar className="testimonial__icon-star" />
+                    <AiFillStar className="testimonial__icon-star" />
+                    <AiFillStar className="testimonial__icon-star" />
                   </div>
                 </div>
                 <p className="testimonial__description">
@@ -254,11 +254,11 @@ const Testimonial = () => {
                       </div>
                     </div>
                     <div className="tw-flex">
-                      <AiOutlineStar className="testimonial__icon-start" />
-                      <AiOutlineStar className="testimonial__icon-start" />
-                      <AiOutlineStar className="testimonial__icon-start" />
-                      <AiOutlineStar className="testimonial__icon-start" />
-                      <AiOutlineStar className="testimonial__icon-start" />
+                      <AiFillStar className="testimonial__icon-star" />
+                      <AiFillStar className="testimonial__icon-star" />
+                      <AiFillStar className="testimonial__icon-star" />
+                      <AiFillStar className="testimonial__icon-star" />
+                      <AiFillStar className="testimonial__icon-star" />
                     </div>
                   </div>
                   <p className="testimonial__description">
@@ -287,11 +287,11 @@ const Testimonial = () => {
                       </div>
                     </div>
                     <div className="tw-flex">
-                      <AiOutlineStar className="testimonial__icon-start" />
-                      <AiOutlineStar className="testimonial__icon-start" />
-                      <AiOutlineStar className="testimonial__icon-start" />
-                      <AiOutlineStar className="testimonial__icon-start" />
-                      <AiOutlineStar className="testimonial__icon-start" />
+                      <AiFillStar className="testimonial__icon-star" />
+                      <AiFillStar className="testimonial__icon-star" />
+                      <AiFillStar className="testimonial__icon-star" />
+                      <AiFillStar className="testimonial__icon-star" />
+                      <AiFillStar className="testimonial__icon-star" />
                     </div>
                   </div>
                   <p className="testimonial__description">
@@ -320,11 +320,11 @@ const Testimonial = () => {
                       </div>
                     </div>
                     <div className="tw-flex">
-                      <AiOutlineStar className="testimonial__icon-start" />
-                      <AiOutlineStar className="testimonial__icon-start" />
-                      <AiOutlineStar className="testimonial__icon-start" />
-                      <AiOutlineStar className="testimonial__icon-start" />
-                      <AiOutlineStar className="testimonial__icon-start" />
+                      <AiFillStar className="testimonial__icon-star" />
+                      <AiFillStar className="testimonial__icon-star" />
+                      <AiFillStar className="testimonial__icon-star" />
+                      <AiFillStar className="testimonial__icon-star" />
+                      <AiFillStar className="testimonial__icon-star" />
                     </div>
                   </div>
                   <p className="testimonial__description">
@@ -353,11 +353,11 @@ const Testimonial = () => {
                       </div>
                     </div>
                     <div className="tw-flex">
-                      <AiOutlineStar className="testimonial__icon-start" />
-                      <AiOutlineStar className="testimonial__icon-start" />
-                      <AiOutlineStar className="testimonial__icon-start" />
-                      <AiOutlineStar className="testimonial__icon-start" />
-                      <AiOutlineStar className="testimonial__icon-start" />
+                      <AiFillStar className="testimonial__icon-star" />
+                      <AiFillStar className="testimonial__icon-star" />
+                      <AiFillStar className="testimonial__icon-star" />
+                      <AiFillStar className="testimonial__icon-star" />
+                      <AiFillStar className="testimonial__icon-star" />
                     </div>
                   </div>
                   <p className="testimonial__description">
@@ -386,11 +386,11 @@ const Testimonial = () => {
                       </div>
                     </div>
                     <div className="tw-flex">
-                      <AiOutlineStar className="testimonial__icon-start" />
-                      <AiOutlineStar className="testimonial__icon-start" />
-                      <AiOutlineStar className="testimonial__icon-start" />
-                      <AiOutlineStar className="testimonial__icon-start" />
-                      <AiOutlineStar className="testimonial__icon-start" />
+                      <AiFillStar className="testimonial__icon-star" />
+                      <AiFillStar className="testimonial__icon-star" />
+                      <AiFillStar className="testimonial__icon-star" />
+                      <AiFillStar className="testimonial__icon-star" />
+                      <AiFillStar className="testimonial__icon-star" />
                     </div>
                   </div>
                   <p className="testimonial__description">

@@ -10,9 +10,9 @@ import { GoServer } from "react-icons/go";
 
 const Skills = () => {
   const [activeKey, setActiveKey] = useState(1);
-  const [backStat, setBackStat] = useState(false);
-  const [frontStat, setFrontStat] = useState(false);
-  const [cloudStat, setCloudStat] = useState(false);
+  const [backStat, setBackStat] = useState(true);
+  const [frontStat, setFrontStat] = useState(true);
+  const [cloudStat, setCloudStat] = useState(true);
   return (
     <Fragment>
       <section className="skills section" id="skills">
@@ -27,13 +27,13 @@ const Skills = () => {
           {/* front */}
           <div
             className={`skill__content ${
-              backStat === true ? "skills__open" : "skills__close"
+              frontStat === true ? "skills__open" : "skills__close"
             }`}
           >
             <div
               className="skills__header"
               onClick={() => {
-                setBackStat(!backStat);
+                setFrontStat(!frontStat);
               }}
             >
               <BiCodeCurly className="skills__icons" />
@@ -50,7 +50,11 @@ const Skills = () => {
                   <span className="skills__number">95%</span>
                 </div>
                 <div className="skills__bar">
-                  <span className="skills__percentage skills__html"></span>
+                  <span
+                    className={`${
+                      frontStat ? "skills__html " : ""
+                    }skills__percentage`}
+                  ></span>
                 </div>
               </div>
               <div className="skills__data">
@@ -59,7 +63,11 @@ const Skills = () => {
                   <span className="skills__number">95%</span>
                 </div>
                 <div className="skills__bar">
-                  <span className="skills__percentage skills__css"></span>
+                  <span
+                    className={`${
+                      frontStat ? "skills__css " : ""
+                    }skills__percentage`}
+                  ></span>
                 </div>
               </div>
               <div className="skills__data">
@@ -68,7 +76,11 @@ const Skills = () => {
                   <span className="skills__number">80%</span>
                 </div>
                 <div className="skills__bar">
-                  <span className="skills__percentage skills__sass"></span>
+                  <span
+                    className={`${
+                      frontStat ? "skills__sass " : ""
+                    }skills__percentage`}
+                  ></span>
                 </div>
               </div>
               <div className="skills__data">
@@ -77,7 +89,11 @@ const Skills = () => {
                   <span className="skills__number">85%</span>
                 </div>
                 <div className="skills__bar">
-                  <span className="skills__percentage skills__tailwind"></span>
+                  <span
+                    className={`${
+                      frontStat ? "skills__tailwind " : ""
+                    }skills__percentage`}
+                  ></span>
                 </div>
               </div>
               <div className="skills__data">
@@ -86,7 +102,11 @@ const Skills = () => {
                   <span className="skills__number">94%</span>
                 </div>
                 <div className="skills__bar">
-                  <span className="skills__percentage skills__boostrap"></span>
+                  <span
+                    className={`${
+                      frontStat ? "skills__boostrap " : ""
+                    }skills__percentage`}
+                  ></span>
                 </div>
               </div>
               <div className="skills__data">
@@ -95,7 +115,11 @@ const Skills = () => {
                   <span className="skills__number">95%</span>
                 </div>
                 <div className="skills__bar">
-                  <span className="skills__percentage skills__jquery"></span>
+                  <span
+                    className={`${
+                      frontStat ? "skills__jquery " : ""
+                    }skills__percentage`}
+                  ></span>
                 </div>
               </div>
               <div className="skills__data">
@@ -104,7 +128,11 @@ const Skills = () => {
                   <span className="skills__number">90%</span>
                 </div>
                 <div className="skills__bar">
-                  <span className="skills__percentage skills__vanilla"></span>
+                  <span
+                    className={`${
+                      frontStat ? "skills__vanilla " : ""
+                    }skills__percentage`}
+                  ></span>
                 </div>
               </div>
               <div className="skills__data">
@@ -113,7 +141,11 @@ const Skills = () => {
                   <span className="skills__number">80%</span>
                 </div>
                 <div className="skills__bar">
-                  <span className="skills__percentage skills__adjs"></span>
+                  <span
+                    className={`${
+                      frontStat ? "skills__adjs " : ""
+                    }skills__percentage`}
+                  ></span>
                 </div>
               </div>
               <div className="skills__data">
@@ -122,7 +154,11 @@ const Skills = () => {
                   <span className="skills__number">92%</span>
                 </div>
                 <div className="skills__bar">
-                  <span className="skills__percentage skills__react"></span>
+                  <span
+                    className={`${
+                      frontStat ? "skills__react " : ""
+                    }skills__percentage`}
+                  ></span>
                 </div>
               </div>
               <div className="skills__data">
@@ -131,7 +167,11 @@ const Skills = () => {
                   <span className="skills__number">92%</span>
                 </div>
                 <div className="skills__bar">
-                  <span className="skills__percentage skills__next"></span>
+                  <span
+                    className={`${
+                      frontStat ? "skills__next " : ""
+                    }skills__percentage`}
+                  ></span>
                 </div>
               </div>
             </div>
@@ -140,13 +180,13 @@ const Skills = () => {
           {/* backend */}
           <div
             className={`skill__content ${
-              frontStat === true ? "skills__open" : "skills__close"
+              backStat === true ? "skills__open" : "skills__close"
             }`}
           >
             <div
               className="skills__header"
               onClick={() => {
-                setFrontStat(!frontStat);
+                setBackStat(!backStat);
               }}
             >
               <GoServer className="skills__icons" />
@@ -163,7 +203,11 @@ const Skills = () => {
                   <span className="skills__number">87%</span>
                 </div>
                 <div className="skills__bar">
-                  <span className="skills__percentage skills__asp"></span>
+                  <span
+                    className={`${
+                      backStat ? "skills__asp " : ""
+                    }skills__percentage`}
+                  ></span>
                 </div>
               </div>
               <div className="skills__data">
@@ -172,7 +216,11 @@ const Skills = () => {
                   <span className="skills__number">80%</span>
                 </div>
                 <div className="skills__bar">
-                  <span className="skills__percentage skills__node"></span>
+                  <span
+                    className={`${
+                      backStat ? "skills__node " : ""
+                    }skills__percentage`}
+                  ></span>
                 </div>
               </div>
               <div className="skills__data">
@@ -181,7 +229,11 @@ const Skills = () => {
                   <span className="skills__number">90%</span>
                 </div>
                 <div className="skills__bar">
-                  <span className="skills__percentage skills__sql"></span>
+                  <span
+                    className={`${
+                      backStat ? "skills__sql " : ""
+                    }skills__percentage`}
+                  ></span>
                 </div>
               </div>
               <div className="skills__data">
@@ -190,7 +242,11 @@ const Skills = () => {
                   <span className="skills__number">85%</span>
                 </div>
                 <div className="skills__bar">
-                  <span className="skills__percentage skills__mongo"></span>
+                  <span
+                    className={`${
+                      backStat ? "skills__mongo " : ""
+                    }skills__percentage`}
+                  ></span>
                 </div>
               </div>
             </div>
@@ -222,7 +278,11 @@ const Skills = () => {
                   <span className="skills__number">70%</span>
                 </div>
                 <div className="skills__bar">
-                  <span className="skills__percentage skills__aws"></span>
+                  <span
+                    className={`${
+                      cloudStat ? "skills__aws " : ""
+                    }skills__percentage`}
+                  ></span>
                 </div>
               </div>
             </div>
