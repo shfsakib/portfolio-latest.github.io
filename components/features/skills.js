@@ -10,6 +10,9 @@ import { GoServer } from "react-icons/go";
 
 const Skills = () => {
   const [activeKey, setActiveKey] = useState(1);
+  const [backStat, setBackStat] = useState(false);
+  const [frontStat, setFrontStat] = useState(false);
+  const [cloudStat, setCloudStat] = useState(false);
   return (
     <Fragment>
       <section className="skills section" id="skills">
@@ -24,13 +27,13 @@ const Skills = () => {
           {/* front */}
           <div
             className={`skill__content ${
-              activeKey === 1 ? "skills__open" : "skills__close"
+              backStat === true ? "skills__open" : "skills__close"
             }`}
           >
             <div
               className="skills__header"
               onClick={() => {
-                setActiveKey(1);
+                setBackStat(!backStat);
               }}
             >
               <BiCodeCurly className="skills__icons" />
@@ -137,13 +140,13 @@ const Skills = () => {
           {/* backend */}
           <div
             className={`skill__content ${
-              activeKey === 2 ? "skills__open" : "skills__close"
+              frontStat === true ? "skills__open" : "skills__close"
             }`}
           >
             <div
               className="skills__header"
               onClick={() => {
-                setActiveKey(2);
+                setFrontStat(!frontStat);
               }}
             >
               <GoServer className="skills__icons" />
@@ -196,13 +199,13 @@ const Skills = () => {
           {/* cloud */}
           <div
             className={`skill__content ${
-              activeKey === 3 ? "skills__open" : "skills__close"
+              cloudStat === true ? "skills__open" : "skills__close"
             }`}
           >
             <div
               className="skills__header"
               onClick={() => {
-                setActiveKey(3);
+                setCloudStat(!cloudStat);
               }}
             >
               <AiOutlineCloud className="skills__icons" />
