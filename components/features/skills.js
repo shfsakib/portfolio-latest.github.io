@@ -192,7 +192,7 @@ const Skills = () => {
               <GoServer className="skills__icons" />
               <div className="" data-aos="zoom-out">
                 <h1 className="skills__title">Backend Developer</h1>
-                <span className="skills__subtitle">More than 2 years</span>
+                <span className="skills__subtitle">More than 4 years</span>
               </div>
               <BsChevronDown className="skills__arrow" />
             </div>
