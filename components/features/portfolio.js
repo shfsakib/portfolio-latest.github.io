@@ -77,7 +77,7 @@ const Portfolio = () => {
                 </div>
               </SwiperSlide>
               {/* 2 */}
-              <SwiperSlide>
+              {/* <SwiperSlide>
                 <div className="portfolio__content grid">
                   <img
                     src="hq.svg"
@@ -105,7 +105,7 @@ const Portfolio = () => {
                     </a>
                   </div>
                 </div>
-              </SwiperSlide>
+              </SwiperSlide> */}
               <SwiperSlide>
                 <div className="portfolio__content grid">
                   <img
