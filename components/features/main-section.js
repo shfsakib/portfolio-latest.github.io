@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React, { Fragment, useEffect } from "react";
-import { AiOutlineSend } from "react-icons/ai";
-import { BiMessageDetail } from "react-icons/bi";
+import { AiOutlineSend, AiOutlineYoutube } from "react-icons/ai";
+import { GrYoutube } from "react-icons/gr";
 import {
   BsArrowDownShort,
   BsFacebook,
@@ -18,6 +18,14 @@ const MainSection = () => {
         <div className="home__container container grid">
           <div className="home__content grid">
             <div className="home__social" data-aos="fade-up">
+              <a
+                href="https://youtube.com/@shfhub"
+                target={"_blank"}
+                rel="noreferrer"
+                className="home__social-icon"
+              >
+                <GrYoutube />
+              </a>
               <a
                 href="https://www.linkedin.com/in/shfsakib/"
                 target={"_blank"}

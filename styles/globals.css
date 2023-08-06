@@ -1154,6 +1154,9 @@ textarea.contact__input {
   .container {
     max-width: 1254px;
   }
+  .home__social {
+    transform: translateX(0rem) !important;
+  }
 }
 .fb_dialog_content iframe {
   bottom: 3.5rem !important;
