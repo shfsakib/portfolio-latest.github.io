@@ -25,7 +25,7 @@ const About = () => {
           </p>
           <div className="about__info">
             <div className="" data-aos="fade-right">
-              <span className="about__info-title">3+</span>
+              <span className="about__info-title">4+</span>
               <span className="about__info-name">
                 Years
                 <br />
@@ -33,7 +33,7 @@ const About = () => {
               </span>
             </div>
             <div className="" data-aos="zoom-in">
-              <span className="about__info-title">60+</span>
+              <span className="about__info-title">40+</span>
               <span className="about__info-name">
                 Completed
                 <br />
@@ -41,7 +41,7 @@ const About = () => {
               </span>
             </div>
             <div className="" data-aos="fade-left">
-              <span className="about__info-title">50+</span>
+              <span className="about__info-title">35+</span>
               <span className="about__info-name">
                 Satisfied
                 <br />

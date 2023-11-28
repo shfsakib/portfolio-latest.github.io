@@ -445,17 +445,20 @@ img {
 .skills__next {
   width: 92%;
 }
+.skills__native {
+  width: 82%;
+}
 .skills__asp {
-  width: 87%;
+  width: 90%;
 }
 .skills__node {
-  width: 80%;
+  width: 82%;
 }
 .skills__sql {
   width: 90%;
 }
 .skills__mongo {
-  width: 85%;
+  width: 80%;
 }
 .skills__aws {
   width: 70%;

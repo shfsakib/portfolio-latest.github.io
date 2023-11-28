@@ -120,7 +120,7 @@ const Qualification = () => {
                   </span>
                   <span className="qualification__calendar">
                     <AiOutlineCalendar />
-                    2020 - Continuing
+                    Feb 2020 - May 2023
                   </span>
                 </div>
                 <div className="">

@@ -39,7 +39,7 @@ const Skills = () => {
               <BiCodeCurly className="skills__icons" />
               <div className="" data-aos="zoom-out">
                 <h1 className="skills__title">Frontend Developer</h1>
-                <span className="skills__subtitle">More than 3 years</span>
+                <span className="skills__subtitle">More than 4 years</span>
               </div>
               <BsChevronDown className="skills__arrow" />
             </div>
@@ -174,6 +174,19 @@ const Skills = () => {
                   ></span>
                 </div>
               </div>
+              <div className="skills__data">
+                <div className="skills__titles">
+                  <h3 className="skills__name">React Native</h3>
+                  <span className="skills__number">82%</span>
+                </div>
+                <div className="skills__bar">
+                  <span
+                    className={`${
+                      frontStat ? "skills__native " : ""
+                    }skills__percentage`}
+                  ></span>
+                </div>
+              </div>
             </div>
           </div>
           {/* end */}
@@ -192,7 +205,7 @@ const Skills = () => {
               <GoServer className="skills__icons" />
               <div className="" data-aos="zoom-out">
                 <h1 className="skills__title">Backend Developer</h1>
-                <span className="skills__subtitle">More than 4 years</span>
+                <span className="skills__subtitle">More than 2 years</span>
               </div>
               <BsChevronDown className="skills__arrow" />
             </div>
@@ -200,7 +213,7 @@ const Skills = () => {
               <div className="skills__data">
                 <div className="skills__titles">
                   <h3 className="skills__name">ASP.Net C#</h3>
-                  <span className="skills__number">87%</span>
+                  <span className="skills__number">90%</span>
                 </div>
                 <div className="skills__bar">
                   <span
@@ -213,7 +226,7 @@ const Skills = () => {
               <div className="skills__data">
                 <div className="skills__titles">
                   <h3 className="skills__name">NodeJS</h3>
-                  <span className="skills__number">80%</span>
+                  <span className="skills__number">82%</span>
                 </div>
                 <div className="skills__bar">
                   <span
@@ -239,7 +252,7 @@ const Skills = () => {
               <div className="skills__data">
                 <div className="skills__titles">
                   <h3 className="skills__name">MongoDB</h3>
-                  <span className="skills__number">85%</span>
+                  <span className="skills__number">80%</span>
                 </div>
                 <div className="skills__bar">
                   <span

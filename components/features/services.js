@@ -68,11 +68,11 @@ const Services = () => {
                   </li>
                   <li className="services__modal-service">
                     <AiOutlineCheckCircle className="services__modal-icon" />
-                    <p>{"Template in ReactJS or NextJS"}</p>
+                    <p>{"Template in ReactJS, NextJS & React Native"}</p>
                   </li>
                   <li className="services__modal-service">
                     <AiOutlineCheckCircle className="services__modal-icon" />
-                    <p>{"API integration in ReactJS or NextJS"}</p>
+                    <p>{"API integration in ReactJS, NextJS & React Native"}</p>
                   </li>
                 </ul>
               </div>
