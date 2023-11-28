@@ -114,7 +114,9 @@ const Qualification = () => {
               {/*  */}
               <div className="qualification__data">
                 <div className="" data-aos="fade-right">
-                  <h3 className="qualification__title">Software Engineer</h3>
+                  <h3 className="qualification__title">
+                    Sr. Software Engineer
+                  </h3>
                   <span className="qualification__subtitle">
                     Alchemy Software Limited
                   </span>
