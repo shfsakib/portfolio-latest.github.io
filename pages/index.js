@@ -60,7 +60,7 @@ export default function Home() {
       <Skills />
       <Qualification />
       <Services />
-      <FiverrServices />
+      {/* <FiverrServices /> */}
       <Portfolio />
       <Testimonial />
       <Contact />
